@@ -4,6 +4,7 @@ import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-layout',
+  standalone: true,
   imports: [
     RouterOutlet,
     SidebarComponent
@@ -12,5 +13,4 @@ import {Component} from '@angular/core';
   styleUrl: './layout.component.scss'
 })
 export class LayoutComponent {
-
 }
